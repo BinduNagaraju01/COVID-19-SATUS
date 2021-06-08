@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.container{
+    background-color: rgb(253, 219, 224);
+}
+    
+
+
+
+header {
+    padding: 5rem;
+}
+
+header > * {
+    text-align: center;
+    padding:0.4rem ;
+}
+
+header h3 {
+    font-size:1.5rem ;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+
+}
+@media only screen and (max-width: 720px) {
+    section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+
+}
+
+.stat > * {
+    padding: 0.8rem ;
+}
+
+.stat h4 {
+    font-size: 1.5rem;
+}
+
+.stat > *:nth-child(2) {
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: rgb(228, 129, 129, .2);
+    box-shadow: 0 10px 15px 0 rgba(241, 228, 228, 10), 0 12px 20px 0 rgba(243, 226, 226, 0.19);
+}
+
+.stat > *:nth-child(3)
+{
+    font-size: 1.2 rem;
+    font-weight: 600;
+}
+.active {
+    background-color: rgb(243, 105, 105) ;
+    background-image: url("https://www.thehindu.com/opinion/cartoon/g8iu6q/article31230761.ece/ALTERNATES/LANDSCAPE_615/Th02-Surendra-COVID-tank");
+    background-repeat: no-repeat;
+    background-size: 12rem 10rem;");
+    background-repeat: no-repeat;
+    background-size: 23rem 10rem;
+    
+
+}
+.Recovered{
+    background-color:rgb(109, 247, 109) ;
+    background-image: url("https://www.lakecountypartners.com/wp-content/uploads/2020/12/LakeCountyCovidVaccineImage.png");
+    background-repeat: no-repeat;
+    background-size: 23rem 10rem;
+}
+.Vaccinated{
+    background-color: rgb(150, 208, 241);
+    background-image: url("https://thumbs.dreamstime.com/b/vaccination-concept-coronavirus-covid-19-vaccine-ampoule-syringe-vaccine-vector-illustration-flat-cartoon-194975045.jpg");
+    background-repeat: no-repeat;
+    background-size: 23rem 10rem;
+    
+  
+}
+.Deaths{
+    background-color: rgb(112, 110, 110);
+    background-image: url("http://nepalforeignaffairs.com/wp-content/uploads/2020/10/64002078-2e7a-45e8-bbc5-881efa96abdc.jpeg");
+    background-repeat: no-repeat;
+    background-size: 23rem 10rem;
+}
+
+
